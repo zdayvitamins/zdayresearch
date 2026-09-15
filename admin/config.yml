@@ -1,1 +1,38 @@
+backend:
+  name: github
+  repo: zdayvitamins/zdayresearch
+  branch: main
+  # base_url will be added after the one-time OAuth setup.
 
+media_folder: "uploads"
+public_folder: "/uploads"
+publish_mode: editorial_workflow
+
+collections:
+  - name: "research_news"
+    label: "Research News"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    editor:
+      preview: false
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss Z"}
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options: ["Research News", "Research 101", "Metabolism", "Mitochondria", "Recovery", "Community"]
+      - label: "Evidence Level"
+        name: "evidence"
+        widget: "select"
+        required: false
+        options: ["Human Research", "Animal Research", "Cell Research", "Preclinical Research", "General Education"]
+      - {label: "Short Summary", name: "excerpt_text", widget: "text", hint: "1–2 sentences shown on the homepage and news feed."}
+      - {label: "Featured Image", name: "image", widget: "image", required: false}
+      - {label: "Post", name: "body", widget: "markdown"}
+      - {label: "Research Source / Citation", name: "source_title", widget: "text", required: false}
+      - {label: "Source Link", name: "source_url", widget: "string", required: false}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
