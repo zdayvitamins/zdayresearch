@@ -1,1 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | Z Day Research</title>
+  <meta name="description" content="{{ page.excerpt_text | escape }}">
+  <style>
+    :root {
+      --purple: #5b2a86;
+      --purple-dark: #3f1d63;
+      --gold: #d4af37;
+      --text: #25232a;
+      --muted: #6d6874;
+      --light: #f8f7fa;
+    }
 
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: #fff;
+      line-height: 1.7;
+    }
+
+    header {
+      border-bottom: 3px solid var(--gold);
+      background: #fff;
+    }
+
+    .nav {
+      max-width: 950px;
+      margin: auto;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .logo {
+      height: 62px;
+      width: auto;
+    }
+
+    .back {
+      color: var(--purple);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    main {
+      max-width: 780px;
+      margin: 45px auto;
+      padding: 0 22px 60px;
+    }
+
+    .category {
+      display: inline-block;
+      color: var(--purple);
+      background: #f2edf7;
+      border: 1px solid #e1d4ed;
+      border-radius: 999px;
+      padding: 5px 12px;
+      font-size: .85rem;
+      font-weight: 700;
+    }
+
+    h1 {
+      color: var(--purple-dark);
+      font-size: clamp(2rem, 6vw, 3.25rem);
+      line-height: 1.12;
+      margin: 18px 0 12px;
+    }
+
+    .meta {
+      color: var(--muted);
+      margin-bottom: 28px;
+    }
+
+    .evidence {
+      color: var(--purple);
+      font-weight: 700;
+    }
+
+    .featured {
+      width: 100%;
+      border-radius: 16px;
+      margin: 5px 0 30px;
+    }
+
+    .article {
+      font-size: 1.08rem;
+    }
+
+    .article h2,
+    .article h3 {
+      color: var(--purple-dark);
+      margin-top: 32px;
+    }
+
+    .source {
+      margin-top: 45px;
+      padding: 22px;
+      border-left: 4px solid var(--gold);
+      background: var(--light);
+      border-radius: 8px;
+    }
+
+    .source h3 {
+      color: var(--purple-dark);
+      margin-top: 0;
+    }
+
+    .source a {
+      color: var(--purple);
+      font-weight: 700;
+    }
+
+    .disclaimer {
+      margin-top: 45px;
+      padding-top: 22px;
+      border-top: 1px solid #ddd;
+      text-align: center;
+      color: var(--muted);
+      font-size: .86rem;
+    }
+
+    footer {
+      text-align: center;
+      background: var(--purple-dark);
+      color: white;
+      padding: 24px 20px;
+    }
+
+    footer strong {
+      color: var(--gold);
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="nav">
+    <a href="/">
+      <img src="/zday_logo.png" alt="Z Day Research" class="logo">
+    </a>
+    <a href="/news/" class="back">← Research & News</a>
+  </div>
+</header>
+
+<main>
+
+  <span class="category">{{ page.category }}</span>
+
+  <h1>{{ page.title }}</h1>
+
+  <div class="meta">
+    {{ page.date | date: "%B %-d, %Y" }}
+    {% if page.evidence %}
+      • <span class="evidence">{{ page.evidence }}</span>
+    {% endif %}
+  </div>
+
+  {% if page.image %}
+    <img src="{{ page.image }}" alt="{{ page.title | escape }}" class="featured">
+  {% endif %}
+
+  <article class="article">
+    {{ content }}
+  </article>
+
+  {% if page.source_title %}
+  <section class="source">
+    <h3>📚 Research Source</h3>
+    <p>{{ page.source_title }}</p>
+
+    {% if page.source_url %}
+      <a href="{{ page.source_url }}" target="_blank" rel="noopener noreferrer">
+        View Research Source →
+      </a>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  <div class="disclaimer">
+    <strong>For Research & Educational Purposes Only</strong><br>
+    Information presented here is for general research education and is not
+    medical advice or intended for diagnostic or therapeutic use.
+  </div>
+
+</main>
+
+<footer>
+  🧬 <strong>Z Day Research</strong><br>
+  Quality • Value • Service
+</footer>
+
+</body>
+</html>
