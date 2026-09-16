@@ -46,6 +46,7 @@ collections:
     label: "Customer Feedback"
     folder: "_data/reviews"
     create: true
+    identifier_field: "name"
     slug: "{{slug}}"
     extension: "yml"
     format: "yaml"
