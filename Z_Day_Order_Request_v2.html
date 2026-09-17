@@ -1,0 +1,70 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Z Day Research | Order Request</title>
+<style>
+:root{--p:#35106f;--p2:#6420a5;--g:#d6a72a;--m:#686779;--line:#e3ddec;--bg:#f8f6fb}*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:radial-gradient(circle at top left,#d6a72a20,transparent 34%),radial-gradient(circle at top right,#6420a520,transparent 38%),var(--bg);color:#171522}.wrap{width:min(980px,92%);margin:auto}header{text-align:center;padding:28px 0 18px}.logo{width:min(145px,38vw);border-radius:50%;background:#fff;box-shadow:0 12px 32px #35106f20}h1{color:var(--p);font-size:clamp(2rem,6vw,3rem);margin:12px 0 3px}.sub,.fine{color:var(--m)}.notice,.card,.summary{background:#fff;border-radius:16px;box-shadow:0 10px 28px #35106f14}.notice{border-left:5px solid var(--g);padding:16px 18px;margin:18px 0}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.card{padding:19px;margin-bottom:18px}.card h2{color:var(--p);font-size:1.18rem;border-bottom:2px solid var(--g);padding-bottom:9px;margin:0 0 10px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:12px}label{font-weight:800;color:var(--p);font-size:.9rem}input,textarea{width:100%;padding:12px;border:1px solid #d9cdea;border-radius:10px;margin-top:5px;font:inherit}.full{grid-column:1/-1}.item{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--line)}.item:last-child{border:0}.item b{display:block}.item span{font-weight:900;color:var(--p);font-size:.88rem}.qty{display:flex;align-items:center;gap:5px}.qty button{width:36px;height:36px;border:0;border-radius:10px;background:#f1edf7;color:var(--p);font-size:1.25rem;font-weight:900}.qty input{width:40px;height:36px;padding:0;margin:0;text-align:center;font-weight:900}.summary{padding:20px;border-top:4px solid var(--g);margin:0 0 22px}.sumrow{display:flex;justify-content:space-between;margin:6px 0}.grand{border-top:1px solid var(--line);padding-top:9px;font-size:1.25rem;color:var(--p);font-weight:900}.check{display:flex;gap:10px;align-items:flex-start;margin:15px 0;color:#4f4b59;font-weight:400}.check input{width:18px;margin-top:2px;accent-color:var(--p)}.send{width:100%;border:0;border-radius:12px;padding:15px;background:linear-gradient(135deg,var(--p),var(--p2));color:#fff;font-size:1rem;font-weight:900}.fine{font-size:.82rem;text-align:center}.back{display:inline-block;color:var(--p);font-weight:800;text-decoration:none;margin-bottom:30px}@media(max-width:720px){.grid,.fields{grid-template-columns:1fr}.full{grid-column:auto}}
+</style></head><body><div class="wrap"><header><img class="logo" src="zday_logo.png"><h1>Order Request</h1><p class="sub">Select your research supplies and review your total</p></header>
+<div class="notice"><b>Research Use Only:</b> This form is for legitimate laboratory, analytical, and research supply requests. Products are not for human or veterinary use.</div>
+<section class="card"><h2>📦 Shipping Information</h2><div class="fields"><label>Name<input id="name"></label><label>Email<input id="email" type="email"></label><label>Phone (optional)<input id="phone" type="tel"></label><label class="full">Shipping Address<textarea id="address" rows="3" placeholder="Street address, city, state, ZIP"></textarea></label></div></section>
+<div class="grid"><section class="card"><h2>🧪 Metabolic Research</h2><div class="item" data-name="Tirzepatide 20mg" data-price="40"><div><b>Tirzepatide 20mg</b><span>$40</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div><div class="item" data-name="Tirzepatide 30mg" data-price="50"><div><b>Tirzepatide 30mg</b><span>$50</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div><div class="item" data-name="Tirzepatide 40mg" data-price="60"><div><b>Tirzepatide 40mg</b><span>$60</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div><div class="item" data-name="Tirzepatide 60mg" data-price="80"><div><b>Tirzepatide 60mg</b><span>$80</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div><div class="item" data-name="Retatrutide 20mg" data-price="55"><div><b>Retatrutide 20mg</b><span>$55</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div><div class="item" data-name="Retatrutide 30mg" data-price="65"><div><b>Retatrutide 30mg</b><span>$65</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div><div class="item" data-name="Retatrutide 40mg" data-price="75"><div><b>Retatrutide 40mg</b><span>$75</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div><div class="item" data-name="L-Carnitine 600mg/mL" data-price="40"><div><b>L-Carnitine 600mg/mL</b><span>$40</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div></section><section class="card"><h2>🧬 Growth Hormone Research</h2><div class="item" data-name="Sermorelin 10mg" data-price="45"><div><b>Sermorelin 10mg</b><span>$45</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div><div class="item" data-name="Tesamorelin 10mg" data-price="50"><div><b>Tesamorelin 10mg</b><span>$50</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div><div class="item" data-name="CJC (No DAC) + Ipamorelin 10mg" data-price="35"><div><b>CJC (No DAC) + Ipamorelin 10mg</b><span>$35</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div></section><section class="card"><h2>⚡ Mitochondrial Research</h2><div class="item" data-name="MOTS-C 10mg" data-price="30"><div><b>MOTS-C 10mg</b><span>$30</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div><div class="item" data-name="MOTS-C 40mg" data-price="70"><div><b>MOTS-C 40mg</b><span>$70</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div><div class="item" data-name="NAD+ 500mg" data-price="35"><div><b>NAD+ 500mg</b><span>$35</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div><div class="item" data-name="NAD+ 1000mg" data-price="70"><div><b>NAD+ 1000mg</b><span>$70</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div><div class="item" data-name="SS-31 10mg" data-price="40"><div><b>SS-31 10mg</b><span>$40</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div></section><section class="card"><h2>🧫 Additional Research Products</h2><div class="item" data-name="Wolverine 20mg" data-price="45"><div><b>Wolverine 20mg</b><span>$45</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div><div class="item" data-name="GHK-Cu 50mg" data-price="25"><div><b>GHK-Cu 50mg</b><span>$25</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div><div class="item" data-name="KLOW 80mg" data-price="60"><div><b>KLOW 80mg</b><span>$60</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div><div class="item" data-name="GLOW 70mg" data-price="50"><div><b>GLOW 70mg</b><span>$50</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div><div class="item" data-name="Glutathione 1500mg" data-price="40"><div><b>Glutathione 1500mg</b><span>$40</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div><div class="item" data-name="Melanotan-2" data-price="30"><div><b>Melanotan-2</b><span>$30</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div><div class="item" data-name="PT-141 10mg" data-price="35"><div><b>PT-141 10mg</b><span>$35</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div><div class="item" data-name="Hospira Bacteriostatic Water 30mL" data-price="40"><div><b>Hospira Bacteriostatic Water 30mL</b><span>$40</span></div><div class="qty"><button type="button" data-d="-1">−</button><input value="0" readonly><button type="button" data-d="1">+</button></div></div></section></div>
+<section class="summary"><h2 style="color:var(--p);margin-top:0">💜💛 Request Summary</h2><div id="chosen" class="fine" style="text-align:left">Select products above to begin.</div><div class="sumrow"><span>Products</span><b id="sub">$0.00</b></div><div class="sumrow"><span>USA Shipping</span><b id="ship">$0.00</b></div><div class="sumrow grand"><span>Total</span><span id="total">$0.00</span></div><label class="check"><input id="ack" type="checkbox"><span>I confirm this request is for legitimate research purposes and not for human or veterinary use.</span></label><button class="send" onclick="send()">📧 Send Order Request</button><p class="fine">Your email app will open with the request already filled in. Review it, then tap Send. Payment instructions and an order number will be provided separately after review.</p></section><a class="back" href="catalog.html">← Back to Catalog</a></div>
+<script>
+const SHIPPING = 10;
+function getItems(){
+  return [...document.querySelectorAll('.item')].map(el => ({
+    el,
+    name: el.dataset.name,
+    price: Number(el.dataset.price),
+    qty: Number(el.querySelector('.qty input').value) || 0
+  }));
+}
+function calculate(){
+  const selected = getItems().filter(x => x.qty > 0);
+  const subtotalValue = selected.reduce((sum,x) => sum + x.price*x.qty, 0);
+  const shippingValue = subtotalValue > 0 ? SHIPPING : 0;
+  document.getElementById('sub').textContent = '$' + subtotalValue.toFixed(2);
+  document.getElementById('ship').textContent = '$' + shippingValue.toFixed(2);
+  document.getElementById('total').textContent = '$' + (subtotalValue + shippingValue).toFixed(2);
+  document.getElementById('chosen').innerHTML = selected.length
+    ? selected.map(x => `${x.name} × ${x.qty} — $${(x.price*x.qty).toFixed(2)}`).join('<br>')
+    : 'Select products above to begin.';
+}
+document.querySelectorAll('.qty button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const input = btn.parentElement.querySelector('input');
+    input.value = Math.max(0, (Number(input.value)||0) + Number(btn.dataset.d));
+    calculate();
+  });
+});
+document.querySelector('.send').addEventListener('click', () => {
+  const selected = getItems().filter(x => x.qty > 0);
+  const subtotalValue = selected.reduce((sum,x) => sum + x.price*x.qty, 0);
+  const nm = document.getElementById('name').value.trim();
+  const em = document.getElementById('email').value.trim();
+  const ph = document.getElementById('phone').value.trim();
+  const ad = document.getElementById('address').value.trim();
+  if(!nm || !em || !ad){ alert('Please enter your name, email, and shipping address.'); return; }
+  if(!selected.length){ alert('Please select at least one product.'); return; }
+  if(!document.getElementById('ack').checked){ alert('Please confirm the research-use acknowledgment.'); return; }
+  const lines = selected.map(x => `${x.name} x ${x.qty} — $${(x.price*x.qty).toFixed(2)}`).join('\n');
+  const body = `Z DAY RESEARCH ORDER REQUEST
+
+Name: ${nm}
+Email: ${em}
+Phone: ${ph || 'Not provided'}
+Shipping Address: ${ad}
+
+ITEMS
+${lines}
+
+Subtotal: $${subtotalValue.toFixed(2)}
+USA Shipping: $${SHIPPING.toFixed(2)}
+TOTAL: $${(subtotalValue+SHIPPING).toFixed(2)}
+
+Research-use acknowledgment: Confirmed
+
+Please reply with my order number and payment instructions.`;
+  window.location.href = 'mailto:zdayvitamins@gmail.com?subject=' +
+    encodeURIComponent('Z Day Order Request — ' + nm) +
+    '&body=' + encodeURIComponent(body);
+});
+calculate();
+</script></body></html>
