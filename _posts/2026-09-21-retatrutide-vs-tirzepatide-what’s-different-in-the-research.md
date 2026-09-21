@@ -19,14 +19,43 @@ source_title: >-
 source_url: https://www.nejm.org/doi/full/10.1056/NEJMoa2301972
 layout: post
 ---
-Retatrutide vs. Tirzepatide: What’s Different?
-Tirzepatide and retatrutide share two metabolic targets: GIP and GLP-1 receptors. Retatrutide adds a third — the glucagon receptor.
-Tirzepatide: GIP + GLP-1
-Retatrutide: GIP + GLP-1 + Glucagon
-That third pathway is especially interesting because glucagon does more than regulate blood glucose. Research suggests glucagon signaling can increase energy expenditure and influence how the body uses stored fuels, potentially adding an energy-expenditure component alongside the appetite and metabolic effects associated with incretin signaling. �
-New England Journal of Medicine +1
-This is one of the major ideas behind triple-receptor research: combining reduced energy intake with potentially increased energy expenditure. Retatrutide research has also found changes consistent with increased fatty-acid oxidation, although researchers are still determining exactly how much glucagon activity contributes to its overall effects in humans. �
-Nature
-Human trials have reported substantial weight reductions with both approaches, but results from separate trials cannot determine which compound is more effective. Retatrutide remains investigational, while tirzepatide has FDA-approved indications.
-The research takeaway: the biggest mechanistic difference isn't simply “two receptors versus three.” It's the addition of glucagon signaling and the possibility of targeting energy expenditure as well as energy intake.
-*For research and educational purposes only. Not medical advice. Retatrutide is investigational and is not FDA approved.*
+🧬 **The Key Difference**
+
+
+
+Tirzepatide and retatrutide share two metabolic targets, but retatrutide adds a third receptor pathway.
+
+
+
+* Tirzepatide: GIP + GLP-1
+
+
+* Retatrutide: GIP + GLP-1 + Glucagon
+
+
+
+🔥 **Why Glucagon Is Interesting**
+
+
+
+Glucagon signaling can increase energy expenditure and influence how the body uses stored fuels. This creates an interesting research concept: combining reduced energy intake with a potential increase in energy expenditure.
+
+
+
+🔬 **What Human Research Shows**
+
+
+
+Human trials have reported substantial weight reduction with both approaches. However, results from separate clinical trials cannot determine which compound is more effective.
+
+
+
+🧪 **The Research Takeaway**
+
+
+
+Retatrutide adds glucagon receptor activity to GIP and GLP-1 signaling, giving researchers another pathway to investigate in energy expenditure and metabolism.
+
+
+
+For research and educational purposes only. Not medical advice. Retatrutide is investigational and is not FDA approved.
