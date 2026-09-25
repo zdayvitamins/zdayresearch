@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }} | Z Day Research</title>
   <meta name="description" content="{{ page.excerpt_text | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+ <meta property="og:type" content="article">
+ <meta property="og:title" content="{{ page.title }}">
+ <meta property="og:description" content="{{ page.description }}">
+<meta property="og:site_name" content="Z Day Research">
+ <meta property="og:url" content="{{ page.url | absolute_url }}">
   <style>
     :root {
       --purple: #5b2a86;
