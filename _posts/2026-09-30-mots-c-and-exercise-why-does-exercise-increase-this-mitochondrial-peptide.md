@@ -8,6 +8,7 @@ topics:
 excerpt_text: MOTS-C is unusual because your own mitochondria produce it—and
   exercise appears to increase it. Here’s what researchers have discovered about
   MOTS-C, exercise, metabolism and muscle.
+image: /uploads/1000008354.png
 source_title: MOTS-c is an exercise-induced mitochondrial-encoded regulator of
   age-dependent physical decline and muscle homeostasis
 source_url: https://pubmed.ncbi.nlm.nih.gov/42466371/
