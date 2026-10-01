@@ -38,7 +38,7 @@ layout: null
     footer{text-align:center;border-top:1px solid #e2dbea;padding:24px 0 36px;font-size:.9rem}
     footer b{color:var(--p)}
     a{color:var(--p)}
-    @media(max-width:700px){.actions,.grid{grid-template-columns:1fr}}
+    @media(max-width:700px){.actions{grid-template-columns:repeat(3,1fr);gap:8px}.actions .btn{padding:13px 7px;font-size:.82rem;line-height:1.25}.grid{grid-template-columns:1fr}}
     .news-section{margin:10px 0 34px}
     .news-head{text-align:center;margin-bottom:18px}
     .news-head h2{color:var(--p);font-size:clamp(1.55rem,4vw,2.15rem);margin:0 0 5px}
@@ -115,11 +115,6 @@ layout: null
       <a class="btn primary" href="catalog.html">View Product Catalog</a>
       <a class="btn secondary" href="research-guide.html">Explore the Research Guide</a>
       <a class="btn primary" href="/news/">Research &amp; News</a>
-    </div>
-    <div class="grid">
-      <div class="card"><strong>Research Use</strong><span>Products and reference materials intended for legitimate laboratory research.</span></div>
-      <div class="card"><strong>Catalog</strong><span>Clear product listings and straightforward current pricing.</span></div>
-      <div class="card"><strong>Contact</strong><span>Questions about catalog listings, availability, and research-use information are welcome.</span></div>
     </div>
     <section class="news-section" aria-labelledby="latestResearchTitle">
       <div class="news-head">
