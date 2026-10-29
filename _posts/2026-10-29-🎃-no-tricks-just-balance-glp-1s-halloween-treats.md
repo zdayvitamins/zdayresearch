@@ -30,7 +30,7 @@ Pick a small portion of the candy you actually love, eat slowly, and enjoy it. *
 
 👻 **Listen to your stomach**
 
-Prescribed GLP-1 medications can cause digestive symptoms. Smaller portions, eating slowly, and stopping when comfortably full may help. **Rich, high-fat treats like chocolate may be harder to tolerate for some people**, so pay attention to how you feel.
+Research GLP1s can cause digestive symptoms. Smaller portions, eating slowly, and stopping when comfortably full may help. **Rich, high-fat treats like chocolate may be harder to tolerate for some people**, so pay attention to how you feel.
 
 💧 **Keep the basics in the mix**
 
