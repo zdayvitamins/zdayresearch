@@ -63,7 +63,8 @@ layout: null
     .feedback-name{font-weight:900;color:var(--p)}
     .feedback-read{display:block;margin-top:8px;font-size:.88rem;font-weight:800;color:var(--p2)}
     .feedback-all{display:block;width:max-content;margin:10px auto 0;text-decoration:none;font-weight:900;color:var(--p);border-bottom:2px solid var(--g)}
-  </style>
+  .holiday-strip{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 20px;margin:4px 0 22px;border:1px solid #dfc474;border-radius:14px;background:linear-gradient(115deg,#fffaf0,#f5effb);color:#35106f} .holiday-strip[hidden]{display:none}.holiday-strip strong{display:block;font-size:1.05rem}.holiday-strip small{display:block;color:#686779;font-size:.8rem;margin-top:3px}.holiday-strip a{flex-shrink:0;background:#35106f;color:#fff;text-decoration:none;font-weight:800;border-radius:9px;padding:9px 14px}@media(max-width:560px){.holiday-strip{align-items:flex-start;flex-direction:column}.holiday-strip a{align-self:flex-start}}
+</style>
 
 <style id="zday-research-gate-style">
 #researchGate{position:fixed;inset:0;z-index:999999;display:flex;align-items:center;justify-content:center;padding:22px;background:rgba(22,12,40,.82);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
@@ -111,6 +112,7 @@ layout: null
       <div class="pill">For Research Purposes Only</div>
       <p class="intro">Laboratory research information, current catalog pricing, and contact information.</p>
     </header>
+    <section class="holiday-strip" aria-label="Holiday bonus"><div><strong>🎁 Holiday Bonus · 10% off orders of $100 or more</strong><small>Thanks for all the support! Now through December 31. Excludes shipping.</small></div><a href="order.html">Build your order →</a></section>
     <div class="actions">
       <a class="btn primary" href="catalog.html">View Product Catalog</a>
       <a class="btn secondary" href="research-guide.html">Explore the Research Guide</a>
@@ -193,5 +195,5 @@ layout: null
 })();
 </script>
 
-</body>
+<script>if(new Date() >= new Date('2027-01-01T00:00:00-06:00')) document.querySelector('.holiday-strip').hidden=true;</script></body>
 </html>
